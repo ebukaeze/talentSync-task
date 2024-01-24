@@ -1,4 +1,11 @@
 #root {
+  width: 100%;
   max-width: 1728px;
-  padding: 40px 128px 96px 128px;
+}
+*,
+:before,
+:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
