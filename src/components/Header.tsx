@@ -1,6 +1,6 @@
-import React from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
+import SocialProof from "./SocialProof";
 
 const Header = () => {
   return (
@@ -14,6 +14,7 @@ const Header = () => {
       <div className="w-full flex items-center justify-center max-w-[1408px] mx-auto px-16">
         <Hero />
       </div>
+      <SocialProof />
     </header>
   );
 };

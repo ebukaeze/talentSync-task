@@ -1,4 +1,3 @@
-import React from "react";
 import {
   animoji1,
   animoji2,

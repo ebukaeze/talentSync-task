@@ -1,20 +1,19 @@
-import React from "react";
 import Banner from "./Banner";
 import ai from "../assets/images/ai.svg";
+import Reviews from "./Reviews";
 
 const Hero = () => {
   return (
     <div
       className="w-full max-w-[1408px] flex items-start 
-    justify-between h-[488px] space-y-6 p-8 flex-auto gap-x-16"
+    justify-between h-[488px] space-y-2 p-8 flex-auto gap-x-16 -mt-12"
     >
       <div className="flex w-[100%] items-start px-4 justify-center">
-        <div className="w-[60%]">
-          <h1 className="text-7xl font-[600]">
-            Uniting the world,
-            <br /> one video call at a time
+        <div className="w-[64%] flex flex-col flex-wrap items-start pr-12 space-y-8 ">
+          <h1 className="text-6xl font-[600]">
+            Uniting the world, one video call at a time
           </h1>
-          <p className="text-2xl font-[400]">
+          <p className="text-2xl font-[400] pr-4">
             Experience the future of communication with ClearLink where
             crystal-clear video conferencing meets unparalleled simplicity.
           </p>
@@ -35,6 +34,7 @@ const Hero = () => {
               Discover AI assistant
             </button>
           </div>
+          <Reviews />
         </div>
         <Banner />
       </div>
