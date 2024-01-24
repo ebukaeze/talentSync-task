@@ -122,7 +122,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center justify-evenly gap-4">
-          <button className="w-[144px] h-[52px] bg-white py-3.5 px-6 gap-4 rounded-full border">
+          <button className="w-[164px] h-[52px] bg-white py-3.5 px-6 gap-4 rounded-full border">
             Talk to sales
           </button>
           <button className="bg-blue-700  w-[164px] h-[52px] rounded-full border-2 text-white shadow-sm">

@@ -46,7 +46,7 @@ const Trial = () => {
           <img
             src={mockup}
             alt=""
-            className="object-contain xl:w-[1024px] md:w-[550px] h-[550px] absolute -right-20"
+            className="object-contain xl:w-[1024px] md:w-[550px] h-[550px] absolute -right-[76px]"
           />
         </div>
       </div>
