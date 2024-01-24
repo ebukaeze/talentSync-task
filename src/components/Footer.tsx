@@ -7,8 +7,8 @@ import github from "../assets/images/github.svg";
 import youtube from "../assets/images/youtube.svg";
 const Footer = () => {
   return (
-    <div className="xl:w-[1728px] md:w-[1480px] max-w-[1728px] h-[388px] py-20 px-40">
-      <div className="w-[1230px] grid xl:grid-cols-12 md:grid-cols-12 gap-28">
+    <div className="xl:w-[1728px] md:w-[1480px] max-w-[1508px] h-[388px] ">
+      <div className="w-[1230px] grid xl:grid-cols-12 md:grid-cols-12 gap-28 py-20 px-40">
         <div className="flex flex-col items-start justify-start space-y-5 col-span-4">
           <img src={logo} alt="ClearLink" />
           <p>
@@ -488,9 +488,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-between w-full bg-gray-50 h-[120px]">
+      <div className="flex items-center justify-between w-full bg-gray-50 h-[120px] py-20 px-40">
         <p>&copy; 2023 ClearLink. All Rights Reserved</p>
-        <ul>
+        <ul className="flex gap-x-4">
           <li>
             <img src={linkedin} alt="" />
           </li>

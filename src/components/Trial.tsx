@@ -3,9 +3,9 @@ import mockup from "../assets/images/mockup.svg";
 
 const Trial = () => {
   return (
-    <section className="xl:w-[1728px] md:w-[1280px]  md:max-w-[1728px] w-screen h-[697px] py-20 px-40">
-      <div className="w-full flex items-start justify-between gap-10">
-        <div className="flex xl:w-[579px] md:w-[400px] flex-col items-start justify-start space-y-5">
+    <section className="relative xl:w-[1728px] md:w-screen  md:max-w-[1438px] w-screen h-[697px] py-20 pl-40">
+      <div className="w-full flex items-start justify-between gap-16">
+        <div className="flex xl:w-[579px] md:w-[400px] flex-col items-start justify-start space-y-10">
           <h1 className="text-3xl font-medium">
             Ready to clear the path to perfect communication?
           </h1>
@@ -42,8 +42,12 @@ const Trial = () => {
             </button>
           </div>
         </div>
-        <div className="flex items-end justify-end xl:w-[1024px] md:w-[650px]">
-          <img src={mockup} alt="" />
+        <div className="w-full flex items-end justify-end xl:w-[1024px] md:w-[600px] relative h-[570px]">
+          <img
+            src={mockup}
+            alt=""
+            className="object-contain xl:w-[1024px] md:w-[550px] h-[550px] absolute -right-20"
+          />
         </div>
       </div>
     </section>

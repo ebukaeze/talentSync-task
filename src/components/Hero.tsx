@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
           <div className="w-[457px] flex gap-y-5 mt-6">
             <button
-              className="bg-blue-700 text-white w-56 rounded-full
+              className="bg-blue-700 text-white w-64 max-w-72 rounded-full flex items-center justify-center
             py-4 px-7 shadow-sm;
 "
             >
